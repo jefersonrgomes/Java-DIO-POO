@@ -1,18 +1,18 @@
-import br.com.br.desafio.dominio.Curso;
-import br.com.br.desafio.dominio.Mentoria;
+import br.com.br.desafio.dominio.Course;
+import br.com.br.desafio.dominio.Mentorship;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Curso curso = new Curso();
-        Mentoria mentoria = new Mentoria();
+        Course course = new Course();
+        Mentorship mentoria = new Mentorship();
 
-        curso.setTitulo("Java Orientado a Objeto");
-        curso.setDescricao("Descrição do Curso");
-        curso.setCargaHoraria(50);
+        course.setTitle("Java Orientado a Objeto");
+        course.setDescription("Descrição do Curso");
+        course.setCargaHoraria(50);
 
-        System.out.println(curso.toString());
+        System.out.println(course.toString());
 
         System.out.println(mentoria.toString());
 
